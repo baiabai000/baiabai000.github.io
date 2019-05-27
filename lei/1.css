@@ -6,8 +6,8 @@ list-style: none;
 .wrapper{
 width: 100%;
 height:609px;
-background-image: url(img/bk2.jpg);
-background-size: 100% 100%;
+background-image: url(img/bk2.jpg) ;
+background-size: cover;
 position: fixed;
 top: 0px;
 right: 0px;

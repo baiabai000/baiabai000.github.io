@@ -1,0 +1,71 @@
+.header {
+	font-size: 0.36rem;
+	text-align: center;
+	padding: .25rem 0;
+
+}
+
+body {
+	text-align: center;
+	font-weight: 500;
+}
+
+img {
+
+	width: 100%;
+}
+
+.container {
+	margin: 0 .3rem;
+	padding: .55rem 0 0.6rem;
+	
+}
+
+div.price {
+	padding: .35rem .37rem 0 .37rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.1rem;
+}
+
+.font1 {
+	margin-bottom: .38rem;
+	font-size: .28rem;
+	color: #656565;
+}
+
+.font2 {
+	color: #576b95;
+	font-size: .24rem;
+	padding: .29rem 0 .15rem;
+	text-align: left;
+}
+
+textarea {
+	padding: .34rem .25rem;
+	font-size: .3rem;
+	background: #f8f8f8;
+	border: none;
+	resize: none;
+	width: 6.4rem;
+	color: #656565;
+	border-radius: 0.1rem;
+	font-weight: 600;
+		outline: none;
+}
+
+textarea:focus {
+	outline: none;
+
+}
+.textarea{
+
+margin-bottom: .57rem;	}
+button{
+	font-size: .36rem;
+	background: #9de49c;
+	padding: .29rem 3.0rem;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	outline: none;
+}

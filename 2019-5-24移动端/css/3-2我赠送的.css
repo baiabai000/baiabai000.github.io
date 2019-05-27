@@ -1,0 +1,80 @@
+.header {
+	font-size: 0.36rem;
+	text-align: center;
+	padding: .25rem 0;
+}
+
+body {
+	text-align: center;
+}
+
+img {
+
+	width: 100%;
+}
+
+.container {
+	margin: .57rem .30rem 0;
+
+
+}
+
+div.price {
+	padding: .35rem .37rem 0 .37rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.1rem;
+	margin-bottom: .22rem;
+}
+
+.font1 {
+	margin-bottom: .38rem;
+	font-size: .28rem;
+	color: #656565;
+}
+
+.font2 {
+	color: #576b95;
+	font-size: .24rem;
+	padding: .29rem 0 .15rem;
+	text-align: left;
+}
+
+.subtitle {
+	display: flex;
+	justify-content: space-between;
+
+
+	font-weight: lighter;
+	line-height: .16rem;
+
+}
+
+.tail1 {
+	font-size: .22rem;
+	color: #565656;
+	margin: .4rem 0 .6rem;
+}
+.tail2 {
+	padding: .13rem .3rem;
+	background: #f8f8f8;
+	font-size: .22rem;
+	color: #656565;
+	margin: .4rem 0;
+}
+.tail2 a{
+	font-size: .22rem;
+}
+.sub-rig {
+	padding-right: .2rem;
+}
+
+.y {
+	color: #f9cf6c;
+}
+
+.g {
+	color: #09bb07;
+}
+.fotter{
+	margin:0 .30rem .57rem ;
+}

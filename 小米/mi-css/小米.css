@@ -1,0 +1,409 @@
+#wripper {
+	position: relative;
+}
+
+#mi-head {
+	background: #333;
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 40px;
+	height: 40px;
+
+	position: relative;
+
+}
+
+#nav {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+#mi-head a {
+	color: #B0B0B0;
+	margin-right: 5px;
+}
+
+#lef-bar {}
+
+#lef-bar li a {
+
+	margin: 0.5em;
+
+}
+
+#lef-bar li a:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#app {
+	position: relative;
+	z-index: 8000;
+
+}
+
+#lef-bar li:last-child>a {
+	border: none;
+}
+
+.app-hidden {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 124px;
+	text-align: center;
+	box-shadow: 0px 2px 5px #888888;
+	left: 50%;
+	margin-left: -62px;
+	/* display: none; */
+	opacity: 0;
+	transition: 5s;
+	visibility: hidden;
+	z-index: 9999;
+	background-color: #fff;
+
+}
+
+#app:hover .app-hidden {
+	/* display: block; */
+	visibility: visible;
+	opacity: 1;
+}
+
+img {
+	width: 90px;
+}
+
+.arrow {
+	position: absolute;
+	border: 10px solid transparent;
+	border-bottom-color: #fff;
+	width: 0px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	top: -20px;
+}
+
+#rig-bar {
+	/* padding-right: 60px; */
+	width: 290px;
+
+}
+
+#rig-bar li a {
+
+	padding: 0 5px;
+
+}
+
+
+
+#rig-bar li .whi:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#car {
+	position: relative;
+	padding: 0 30px;
+	background: #424242;
+	margin-left: 15px;
+	z-index: 8000;
+}
+
+#car:hover a {
+	color: #f44;
+	border: none;
+
+}
+
+#f44:hover {
+	color: #f44;
+	text-decoration: none;
+
+}
+
+#car:hover {
+
+	background: #fff;
+}
+
+#car:hover #rig-hidden {
+	display: block;
+}
+
+#rig-hidden {
+	width: 320px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: 50;
+	box-shadow: 0px 2px 3px #ccc;
+	text-align: center;
+	line-height: 100px;
+	color: #000000;
+	display: none;
+	z-index: 9999;
+
+}
+
+#content {
+	width: 1226px;
+	position: relative;
+	margin: 0 auto;
+	/* border: solid; */
+	z-index: 1;
+}
+
+/* logocss */
+#hd {
+	position: relative;
+	/* width: 1350px; */
+	z-index: 8;
+
+}
+
+#header {
+	width: 1226px;
+	margin: 0 auto;
+	height: 100px;
+	z-index: 8;
+
+}
+
+#header-logo {
+	/* position: relative; */
+	width: 62px;
+	float: left;
+	margin-top: 22px;
+
+}
+
+#header-logo a {
+	z-index: 800;
+	/* position: relative; */
+	top: 0;
+	bottom: 0;
+	text-indent: -9999px;
+	width: 55px;
+	height: 55px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/mi-logo.png) #ff6700 0 2px no-repeat;
+}
+
+#header-nav {
+
+	width: 850px;
+
+}
+
+
+
+#header-nav ul {
+
+	height: 88px;
+	padding: 12px 0 0 40px;
+
+}
+
+
+
+#header-nav li>a {
+	font-size: 16px;
+	color: #333;
+	padding: 26px 10px 38px;
+	display: block;
+	font-weight: 100;
+
+}
+
+#header-nav li>a:hover {
+	color: #f44;
+	text-decoration: none;
+}
+
+
+
+#header-nav #space {
+	width: 127px;
+
+}
+
+.nav-hidden {
+	position: absolute;
+	padding: 0 8px;
+	width: 1348px;
+	left: 0;
+	box-shadow: 0px 2px 3px #333;
+	display: none;
+	background: #fff;
+}
+
+#header-nav li:hover .nav-hidden {
+	display: block;
+	padding-bottom: 20px;
+}
+
+
+.nav-hidden li {
+	width: 180px;
+	text-align: center;
+	padding: 35px 12px 0;
+	position: relative;
+
+}
+
+.nav-hidden li img {
+	width: 160px;
+	cursor: pointer;
+
+}
+
+.nav-hidden li a {
+	font-weight: 100;
+	color: #000000;
+	font-size: 13px;
+	padding: 0;
+	line-height: 20px;
+}
+
+li .flag p {
+	font-size: 12px;
+	color: #ff6700;
+	line-height: 20px;
+}
+
+.border-right {
+	border-right: 1px solid #E0E0E0;
+
+	height: 100px;
+	width: 1px;
+	margin: 30px 1px;
+
+}
+
+#new {
+	display: inline-block;
+	border: 1px solid #ff6700;
+	color: #ff6700;
+	height: 18px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 65px;
+	margin: 0 auto;
+	bottom: 0;
+}
+
+/* head nav end */
+
+
+/* head search */
+#head-search {
+	width: 300px;
+	margin-top: 25px;
+	height: 48px;
+	position: relative;
+	/* padding: 0 10px; */
+}
+
+.search-list {
+	border: 1px solid #FF6700;
+	position: absolute;
+	top: 48px;
+	left: 2px;
+	width: 248px;
+	text-align: left;
+	background: #fff;
+	border-top: none;
+	display: none;
+}
+
+.search-list li {
+	padding: 8px 12px;
+	font-size: 12px;
+	color: #424242;
+	cursor: pointer;
+}
+
+.search-list li:hover {
+	background: #fafafa;
+}
+
+#nojianju {
+	font-size: 0;
+}
+
+input,
+button {
+	outline: none;
+	border: none;
+}
+
+.input {
+	width: 238px;
+	height: 46px;
+	font-size: 18px;
+	line-height: 47px;
+	/* border: 1px #f44 solid; */
+	padding: 0 0 0 10px;
+	position: absolute;
+	border: 1px solid #b0b0b0;
+	border-right: none;
+	left: 2px;
+}
+
+.input:focus {
+	border: 1px solid #ff6700;
+	border-right: none;
+}
+
+.input:focus~.button {
+	border: 1px solid #ff6700;
+}
+
+.input:focus~.mi9 {
+	display: none;
+}
+
+.input:focus+.search-list {
+	display: block;
+}
+
+.mi9 {
+	position: absolute;
+	bottom: 16px;
+	right: 60px;
+}
+
+.mi9 span {
+	font-size: 12px;
+	display: inline-block;
+	background: #EEEEEE;
+	color: #333;
+	/* top: 0; */
+	margin: 0 3px;
+	padding:1px 4px;
+
+}
+
+.button {
+
+	width: 48px;
+	height: 48px;
+	border: 1px solid #b0b0b0;
+	background: url(../img/搜索.png) no-repeat center;
+}
+
+.button:hover {
+	background: url(../img/sosuo.png) #ff6700 no-repeat center;
+
+}
+
+/* 搜索框end */

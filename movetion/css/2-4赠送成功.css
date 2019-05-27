@@ -1,0 +1,59 @@
+.header {
+	font-size: 0.36rem;
+	text-align: center;
+	padding: .25rem 0;
+}
+
+body {
+	text-align: center;
+}
+
+img {
+
+	width: 100%;
+}
+
+.main-img {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.font p {
+	font-size: .4rem;
+	font-weight: bolder;
+}
+
+.font {
+	margin-bottom: 1.8rem;
+}
+
+.sub-font {
+	font-size: 0.26rem;
+	color: #878787;
+	line-height: .42rem;
+	margin: 0 .8rem 0.3rem ;
+}
+
+button {
+	border: none;
+	font-size: .36rem;
+	color: #FFFFFF;
+	background: #09bb07;
+	padding: 0.25rem 3.0rem;
+	
+}
+
+.but {
+	margin: 0  .3rem 3.6rem ;
+}
+.fotter a{
+	font-size: .26rem;
+	margin: 0 .25rem 0 .3rem;
+	color: #576b95;
+}
+.fotter{
+	margin-bottom: .45rem;
+}
+font{
+	font-size: .26rem;
+	}
